@@ -1,10 +1,8 @@
 package utils
 
-func Contains(a []string, x string) bool  {
-	for _,n:=range  a{
-		if x==n{
-			return true
-		}
+func Contains(x int32) bool  {
+	if x==2 {
+		return true
 	}
 	return false
 }
