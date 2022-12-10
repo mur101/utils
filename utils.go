@@ -1,6 +1,6 @@
 package utils
 
-func Contains(x int32) bool  {
+func ContainsTest(x int32) bool  {
 	if x==2 {
 		return true
 	}
